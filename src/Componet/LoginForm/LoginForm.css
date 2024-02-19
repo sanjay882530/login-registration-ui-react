@@ -1,0 +1,62 @@
+.wrapperForm{
+    background-color:aquamarine;
+    margin: 2vh;
+    padding: 5%;
+
+}
+.wrapperForm .input-form{
+    width: 100%;
+    position: relative;
+    background-color: aquamarine;
+    height: 50px;
+    margin: 30px 0;
+
+}
+.input-form input{
+width: 100%;
+height: 100%;
+background: top;
+border: none;
+outline: none;
+border: 2px solid rgba(250, 4, 4, 0.2);
+border-radius: 40px;
+font-size: 16px;
+color: rgb(30, 29, 28);
+padding: 20px 45px 20px 20px;
+
+}
+.input-form .icon{
+position: absolute;
+right: 20px;
+top: 30%;
+transform: translate(-50%);
+font-size: 16px;
+}
+.input-form ::placeholder{
+    color:cornflowerblue;
+}
+.wrapperForm .rember-me{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+
+}
+.wrapperForm button{
+    width: 100%;
+    height: 45px;
+    background: gray;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.wrapperForm .register-me{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    /* margin: -15px 0 15px; */
+margin: auto;
+}
